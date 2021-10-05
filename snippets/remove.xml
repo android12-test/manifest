@@ -27,9 +27,14 @@
 
   <!-- Google Device tree and Prebuilt Kernel repositories. -->
   <remove-project name="device/google/atv" />
+  <remove-project name="device/google/barbet"/>
+  <remove-project name="device/google/barbet-sepolicy"/>
+  <remove-project name="device/google/barbet-kernel"/>
   <remove-project name="device/google/bonito" />
   <remove-project name="device/google/bonito-kernel" />
   <remove-project name="device/google/bonito-sepolicy" />
+  <remove-project name="device/google/bramble"/>
+  <remove-project name="device/google/bramble-sepolicy"/>
   <remove-project name="device/google/contexthub" />
   <remove-project name="device/google/coral" />
   <remove-project name="device/google/coral-kernel" />
@@ -62,26 +67,10 @@
   <!-- Mediatek Device repository. -->
   <remove-project name="device/mediatek/wembley-sepolicy" />
 
-
-
   <remove-project name="device/ti/beagle-x15" />
   <remove-project name="device/ti/beagle-x15-kernel" />
-  <remove-project name="kernel/prebuilts/4.19/arm64" />
-  <remove-project name="kernel/prebuilts/5.4/arm64" />
-  <remove-project name="kernel/prebuilts/5.4/x86-64" />
-  <remove-project name="kernel/prebuilts/5.10/arm64" />
-  <remove-project name="kernel/prebuilts/5.10/x86-64" />
-  <remove-project name="kernel/prebuilts/mainline/arm64" />
-  <remove-project name="kernel/prebuilts/common-modules/virtual-device/4.19/arm64" />
-  <remove-project name="kernel/prebuilts/common-modules/virtual-device/4.19/x86-64" />
-  <remove-project name="kernel/prebuilts/common-modules/virtual-device/5.10/arm64" />
-  <remove-project name="kernel/prebuilts/common-modules/virtual-device/5.10/x86-64" />
-  <remove-project name="kernel/prebuilts/common-modules/virtual-device/5.4/arm64" />
-  <remove-project name="kernel/prebuilts/common-modules/virtual-device/5.4/x86-64" />
-  <remove-project name="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" />
-  <remove-project name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" />
-  <remove-project name="kernel/tests" />
 
+  <!-- Darwin Prebuilts repository. -->
   <remove-project name="platform/prebuilts/bazel/darwin-x86_64" />
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
